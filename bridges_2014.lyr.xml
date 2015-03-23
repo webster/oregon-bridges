@@ -1,0 +1,1686 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Bridge Section, Oregon Department of Transportation (ODOT)</origin>
+				<pubdate>20140714</pubdate>
+				<title>Bridges 2014</title>
+				<edition>2014</edition>
+				<pubinfo>
+					<publish>Geographic Information Services Unit, Oregon Department of Transportation (ODOT)</publish>
+				</pubinfo>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>This file contains location and identification information for bridges in Oregon. This includes bridges owned by the state, cities, counties, and other owners such as railroad bridges that cross state highways. It does not include bridges that are owned by Federal agencies. A bridge is a structure including supports erected over a depression or an obstruction, such as water, highway, or railway, and having a track or passageway for carrying traffic or other moving loads and having an opening measured along the center of the roadway of more then 20 feet.</abstract>
+			<purpose>The layer was developed to show how individual bridges fit into the transportation system. This layer is the base layer for all bridge information. From this base layer, decisions can be made about detours for individual bridges, and to coordinate construction sequences that allow for continuous freight movement.</purpose>
+			<supplinf>Bridges include culverts on the state highway system that have an opening of as little as 6 ft. For city and county bridges, all structures with an opening of 20 feet are included. Some cities and counties have provided information on structures with an opening of less than 20 feet. Tunnels are also included, as are structures that do not carry traffic but are over the state highway system. Sign bridges, pedestrian bridges, railroad bridges, and flumes are examples of bridges that do not carry highway traffic. Related Studies:  Bridge Rail study on Bridge Management Server (SQL) is where the Rail ratings and rail material data is from.  The amount of updates for this study is unknown. Limitations: Local Bridges have Lat long coordinates from unknown origin. About 50% have been confirmed or recalculated for precise measurements. All structures classified as bridges in the state will never be fully cataloged.  While the data on all state owned NBI bridges are complete, local culverts, cattle passes, sign structures, and other small structures are still being found in Oregon.   An exhaustive set of these may never be found. Almost all the data (any from the bridge inspection reports) was calculated in the field by an engineer taking measurements of the bridge. Any data from the Bridge Load Rating database was calculated in the office by engineers.</supplinf>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<rngdates>
+					<begdate>1989</begdate>
+					<enddate>2014</enddate>
+				</rngdates>
+			</timeinfo>
+			<current>inspection date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>Annually</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-124.531712</westbc>
+				<eastbc>-116.743458</eastbc>
+				<northbc>46.240752</northbc>
+				<southbc>41.969158</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>bridges</themekt>
+				<themekey>Transportation</themekey>
+				<themekey>Bridges</themekey>
+				<themekey>Bridge</themekey>
+				<themekey>Structures</themekey>
+				<themekey>NBI</themekey>
+				<themekey>Sufficiency Rating</themekey>
+				<themekey>bridges_2014</themekey>
+			</theme>
+			<place>
+				<placekt>Oregon</placekt>
+				<placekey>Oregon</placekey>
+				<placekey>Pacific Northwest</placekey>
+				<placekey>USA</placekey>
+				<placekey>PNW</placekey>
+				<placekey>United States</placekey>
+				<placekey>OR</placekey>
+			</place>
+			<temporal>
+				<tempkt>2014</tempkt>
+				<tempkey>2014</tempkey>
+			</temporal>
+		</keywords>
+		<accconst>None.</accconst>
+		<useconst>None.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Bridge Section, Oregon Department of Transportation (ODOT)</cntorg>
+					<cntper>Bert Hartman</cntper>
+				</cntorgp>
+				<cntpos>Bridge Program Unit Manager</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>4040 Fairview Industrial Dr. SE MS #4</address>
+					<city>Salem</city>
+					<state>OR</state>
+					<postal>97302</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(503) 986-3395</cntvoice>
+				<cntfax>(503) 986-3407</cntfax>
+				<cntemail>Bert.H.HARTMAN@odot.state.or.us</cntemail>
+				<hours>8:00am-5:00pm PST</hours>
+				<cntinst>Call, email or write</cntinst>
+			</cntinfo>
+		</ptcontac>
+		<datacred>Oregon Department of Transportation, Technical Services Branch, Bridge Section</datacred>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>Data is obtained from Bridge Section.  Bridges are dynamically segmented on the highway base layer with Geomedia Pro.  Bridges are checked by the Bridge Section for accuracy.</attraccr>
+		</attracc>
+		<logic>The bridge locations (points) were dynamically segmented on the State Highways. The points and associated data were then reviewed by the Bridge Section to verify accuracy.</logic>
+		<complete>Complete at the time of posting.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>No horizontal positional accuracy has been determined.</horizpar>
+			</horizpa>
+			<vertacc>
+				<vertaccr>No vertical positional accuracy has been determined.</vertaccr>
+			</vertacc>
+		</posacc>
+		<lineage>
+			<procstep>
+				<procdesc>Count locations were dynamically segmented on the bridges file using GeoMedia Transportation Manager.  A shapefile was created in GeoMedia and added re-exported in ArcView.  Fields names and lengths were edited using ET GeoWizards.  Date fields were added using the &quot;add date field&quot; tool in the ODOT toolbox. Most of the data is collected by the bridge inspectors who go on site and physically measure and record the data. The information is stored in an SQL server with the Bridge Management System program of Pontis as the interface. Data on load capacity is calculated at a later date in the office using AASHTO code. Data is stored on the Bridge Server. The bridge rail data is also on the bridge server, in an access database.</procdesc>
+				<procdate>2013</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>Bridge Section, Oregon Department of Transportation (ODOT)</cntorg>
+							<cntper>Bert Hartman</cntper>
+						</cntorgp>
+						<cntpos>Bridge Program Unit Manager</cntpos>
+						<cntaddr>
+							<addrtype>mailing and physical address</addrtype>
+							<address>4040 Fairview Industrial Dr. SE MS #4</address>
+							<city>Salem</city>
+							<state>OR</state>
+							<postal>97302</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>(503) 986-3395</cntvoice>
+						<cntfax>(503) 986-3407</cntfax>
+						<cntemail>Bert.H.HARTMAN@odot.state.or.us</cntemail>
+						<hours>8:00am-5:00pm PST</hours>
+						<cntinst>Call, email or write</cntinst>
+					</cntinfo>
+				</proccont>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spref>
+		<horizsys>
+			<planar>
+				<mapproj>
+					<mapprojn>Lambert Conformal Conic</mapprojn>
+					<lambertc>
+						<stdparll>43.000000</stdparll>
+						<stdparll>45.500000</stdparll>
+						<longcm>-120.500000</longcm>
+						<latprjo>41.750000</latprjo>
+						<feast>400000.000000</feast>
+						<fnorth>0.000000</fnorth>
+					</lambertc>
+				</mapproj>
+				<planci>
+					<plance>Coordinate Pair</plance>
+					<coordrep>
+						<absres>0.004096</absres>
+						<ordres>0.004096</ordres>
+					</coordrep>
+					<plandu>International Feet</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>North American Datum of 1983</horizdn>
+				<ellips>Geodetic Reference System 80</ellips>
+				<semiaxis>6378137.000000</semiaxis>
+				<denflat>298.257000</denflat>
+			</geodetic>
+		</horizsys>
+		<vertdef>
+			<altsys>
+				<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+			</altsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<overview>
+			<eaover>Bridges contains APPR_MAT, APPR_SPANS, APPR_TYPE, BRIDGE_ID, BRIDGE_NAM, CARRIES, CITY_NAME, CNTY_NAME, CROSSES, CULVRATING, CUSTODIAN, DECK_RD_WD, DESCRIPTIO, DESIGN, DETOUR_LEN, DGN_LOAD, DKRATING, DS, EFFECTV_DT, FC, FILL, GIS_PRC_DT, HC1, HC2, HORZ_CLR_F, HWYNUMB, INSP_DATE, LANES, LANES_UN, LAT, LENGTH_FT, LONGTD, LRS_KEY, MAIN_SPANS, MATERIAL, MOVEABLE_B, MP, NAV_CNTL, NBI_BRIDGE, NCHRP_230, NHS_IND, ODOT_DIST, ODOT_REG, OWNER, POSTING, RAILCOND, RAILMAT, RAILRATING, SCOURCRIT, SD_FO, SERVICE_ON, SERVICE_UN, SPANS, STATUS, STRUC_TYP, SUBRATING, SUF_RATING, TRAF_DIF, WEIGHT_RES, WIDTH_FT, YEAR, BRKEY and SUPRATING, RTGOAL_SHV</eaover>
+			<eadetcit>Statewide bridges</eadetcit>
+		</overview>
+		<detailed>
+			<attr>
+				<attrlabl>APPR_MAT</attrlabl>
+				<attrdef>Approach span material</attrdef>
+				<attrdefs>Bridge Inspection Reports</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>Aluminum or Iron</edomv>
+						<edomvd>Aluminum or Iron</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>Concrete</edomv>
+						<edomvd>Concrete</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>Concrete Continuous</edomv>
+						<edomvd>Concrete Continuous</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>Masonry</edomv>
+						<edomvd>Masonry</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>Not Applicable (P)</edomv>
+						<edomvd>Not Applicable (P)</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>Other</edomv>
+						<edomvd>Other</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>P/S Conc Continuous</edomv>
+						<edomvd>Prestressed Concrete Continuous</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>Prestressed Concrete</edomv>
+						<edomvd>Prestressed Concrete</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>Steel</edomv>
+						<edomvd>Steel</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>Unknown (NBI)</edomv>
+						<edomvd>Unknown (NBI)</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>Wood or Timber</edomv>
+						<edomvd>Wood or Timber</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>Steel Continuous</edomv>
+						<edomvd>Steel Continuous</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>APPR_SPANS</attrlabl>
+				<attrdef>The number of approach spans.</attrdef>
+				<attrdefs>Bridge Inspection Reports</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>APPR_TYPE</attrlabl>
+				<attrdef>The structure type of the approach spans.</attrdef>
+				<attrdefs>Bridge Inspection Reports</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>Arch-Deck</edomv>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>Box Beam or Girders - Multiple</edomv>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>Box Beam or Girders - Single or Spread</edomv>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>Channel Beam</edomv>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>Culvert (includes frame culverts)</edomv>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>Frame (except frame culverts)</edomv>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>Girder and Floorbeam System</edomv>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>Mixed Types</edomv>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>Not Applicable</edomv>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>Other</edomv>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>Segmental Box Girder</edomv>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>Slab</edomv>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>Stringer/Multi-beam or Girder</edomv>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>Tee Beam</edomv>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>Truss - Deck</edomv>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>Truss - Thru</edomv>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>Unknown</edomv>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>BRIDGE_ID</attrlabl>
+				<attrdef>Identification number of the structure.  This number is the first six digits of the NBI bridge number.</attrdef>
+				<attrdefs>Bridge Inspection Reports</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>BRIDGE_NAM</attrlabl>
+				<attrdef>The descriptive name of the structure.</attrdef>
+				<attrdefs>Bridge Inspection Reports</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>BRKEY</attrlabl>
+				<attrdef>Structure Number</attrdef>
+				<attrdefs>Federal Highway Administration, &quot;Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>CARRIES</attrlabl>
+				<attrdef>Name of feature bridge carries (ex. Hwy 99).</attrdef>
+				<attrdefs>Bridge Inspection Reports</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>CITY_NAME</attrlabl>
+				<attrdef>Name of the city the bridge is within.</attrdef>
+				<attrdefs>Bridge Inspection Reports</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>CNTY_NAME</attrlabl>
+				<attrdef>Name of the county the bridge is within.</attrdef>
+				<attrdefs>Bridge Inspection Reports</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>CROSSES</attrlabl>
+				<attrdef>Name of feature bridge crosses (ex. Willamette River).</attrdef>
+				<attrdefs>Bridge Inspection Reports</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>CULVRATING</attrlabl>
+				<attrdef>Condition of culvert</attrdef>
+				<attrdefs>Federal highway Administration, &quot;Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>0 Bridge closed</edomv>
+						<edomvd>Bridge closed. Replacement necessary</edomvd>
+						<edomvds>Federal highway Administration, &quot;Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>1 Bridge Closed</edomv>
+						<edomvd>Bridge closed. Correction action may put back in light of service.</edomvd>
+						<edomvds>Federal highway Administration, &quot;Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>2 Severe Settlement</edomv>
+						<edomvd>Integral wingwalls collapsed, severe settlement of roadway due to loss of fill. Section of culvert may have failed and can no longer support embankment. Complete undermining at curtain walls and pipes. Corrective action required to maintain traffic. Metal culverts have extreme distortion and deflection throughout with extensive perforations due to corrosion.</edomvd>
+						<edomvds>Federal highway Administration, &quot;Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>3 Excessive Damage</edomv>
+						<edomvd>Any condition described in Code 4 but which is excessive in scope. Severe movement or differential settlement of the segments, or loss of fill. Holes may exist in walls or slabs. Integral wingwalls nearly severed from culverts. Severe scour or erosion at curtain walls, wingwalls, extensive corrosion, or deep pitting with scatter perforations.</edomvd>
+						<edomvds>Federal highway Administration, &quot;Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>4 Considerable Damage</edomv>
+						<edomvd>Large spalls, heavy scaling, wide cracks, considerable efflorescence, or join permitting loss of backfill. Considerable settlement or misalignment. Considerable scouring or erosion at curtain walls, wingwalls, or pipes. Metal culverts have significant distortion and deflection throughout, extensive corrosion or deep pitting.</edomvd>
+						<edomvds>Federal highway Administration, &quot;Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>5 Moderate Damage</edomv>
+						<edomvd>Moderate to major deterioration or disintegration, extensive cracking and leaching, or spalls on concrete or masonry walls and slabs. Minor settlement or misalignment. Noticeable scouring or erosion at curtain walls, wingwalls, or pipes. Metal culverts have significant distortion and deflection in one section, significant corrosion or deep pitting.</edomvd>
+						<edomvds>Federal highway Administration, &quot;Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>6 Deterioration</edomv>
+						<edomvd>Deterioration or initial disintegration, minor chloride contamination, cracking, with some leaching, or spalls on concrete or masonry walls and slabs. Local minor scouring at curtain walls, wingwalls, or significant corrosion or moderate pitting.</edomvd>
+						<edomvds>Federal highway Administration, &quot;Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>7 Minor Deterioration</edomv>
+						<edomvd>Shrinkage cracks, light scaling, and insignificant spalling which does not expose reinforcing steel. Insignificant damage caused by drift with no misalignment and not requiring corrective action. Some minor scouring has occurred near curtain walls, wingwalls, or pipes. Metal culverts have a smooth symmetrical curvature with superficial corrosion and no pitting.</edomvd>
+						<edomvds>Federal highway Administration, &quot;Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>8 No major Problem</edomv>
+						<edomvd>No noticeable or noteworthy deficiencies which affect the condition of the culvert.</edomvd>
+						<edomvds>Federal highway Administration, &quot;Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>9 No deficiency</edomv>
+						<edomvd>No deficiencies</edomvd>
+						<edomvds>Federal highway Administration, &quot;Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>N N/A (NBI)</edomv>
+						<edomvd>Not Applicable. Use if structure is not a culvert.</edomvd>
+						<edomvds>Federal highway Administration, &quot;Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>CUSTODIAN</attrlabl>
+				<attrdef>The custodian of the bridge.</attrdef>
+				<attrdefs>Bridge Inspection Reports</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>11 State Pk/Frst/Reserv</edomv>
+						<edomvd>Oregon Department of Forestry and Oregon Parks and Recreation Department</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>21 Other State Agencies</edomv>
+						<edomvd>Other State Agencies</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>25 Other Local Agencies</edomv>
+						<edomvd>Other Local Agencies</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>26 Private (non-Railroad)</edomv>
+						<edomvd>Private (non-railroad company) owner</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>27 Railroad</edomv>
+						<edomvd>A railroad company owner</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>32 Local Toll Authority</edomv>
+						<edomvd>Local Toll Authority</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>69 Bureau, Reclamation</edomv>
+						<edomvd>United States Bureau of Reclamation</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>City/Municipal Hwy Agenc</edomv>
+						<edomvd>City or Municipal Highway Agency</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>County Hwy Agency</edomv>
+						<edomvd>County Highway Agency</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>State Highway Agency</edomv>
+						<edomvd>State Highway Agency</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>DECK_RD_WD</attrlabl>
+				<attrdef>Width of bridge deck on roadway (in feet).</attrdef>
+				<attrdefs>Bridge Inspection Reports</attrdefs>
+				<attrdomv>
+					<rdom>
+						<attrunit>feet</attrunit>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>DESCRIPTIO</attrlabl>
+				<attrdef>Description</attrdef>
+				<attrdefs>Bridge Inspection Reports</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>DESIGN</attrlabl>
+				<attrdef>Structural design of bridge</attrdef>
+				<attrdefs>Bridge Inspection Reports</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>00 Other (NBI)</edomv>
+						<edomvd>00 Other (NBI)</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>01 Slab</edomv>
+						<edomvd>01 Slab</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>02 Stringer/Girder</edomv>
+						<edomvd>02 Stringer/Girder</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>03 Girder-Floorbeam</edomv>
+						<edomvd>03 Girder-Floorbeam</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>04 Tee Beam</edomv>
+						<edomvd>04 Tee Beam</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>05 Multiple Box Beam</edomv>
+						<edomvd>05 Multiple Box Beam</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>06 Single/Spread Box</edomv>
+						<edomvd>06 Single/Spread Box</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>07 Frame</edomv>
+						<edomvd>07 Frame</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>09 Truss-Deck</edomv>
+						<edomvd>09 Truss-Deck</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>10 Truss-Thru</edomv>
+						<edomvd>10 Truss-Thru</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>11 Arch-Deck</edomv>
+						<edomvd>11 Arch-Deck</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>12 Arch-Thru</edomv>
+						<edomvd>12 Arch-Thru</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>13 Suspension</edomv>
+						<edomvd>13 Suspension</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>15 Movable-Lift</edomv>
+						<edomvd>A vertical lift bridge or lift bridge is a type of moveable bridge in which a span rises vertically while remaining parallel with the deck.</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>16 Moveable-Bascule</edomv>
+						<edomvd>A bascule bridge is a moveable bridge with a counterweight that continuously balances the span, or &quot;leaf&quot;, throughout the entire upward swing in providing clearance for boat traffic.</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>17 Moveable-Swing</edomv>
+						<edomvd>A swing bridge is a movable bridge that has as its primary structural support a vertical locating pin and support ring at or near to its center, about which the turning span can then pivot horizontally.</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>18 Tunnel</edomv>
+						<edomvd>18 tunnel</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>19 Culvert</edomv>
+						<edomvd>A culvert is a conduit used to enclose a flowing body of water. It may be used to allow water to pass railway or embankment, for example.</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>21 Segmental Box Girder</edomv>
+						<edomvd>21 Segmental Box Girder</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>22 Channel Beam</edomv>
+						<edomvd>22 Channel Beam</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>Unknown (P)</edomv>
+						<edomvd>Unknown (P)</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>DETOUR_LEN</attrlabl>
+				<attrdef>Bypass, Detour length</attrdef>
+				<attrdefs>Federal Highway Administration, &quot;Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>DGN_LOAD</attrlabl>
+				<attrdef>Design load of bridge when built. Does not reflect current load rating status.</attrdef>
+				<attrdefs>Bridge Inspection Reports</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>0 Other of Unknown</edomv>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>1 M 9 (H 10)</edomv>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>2 M 13.5 (H 15)</edomv>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>3 MS 13.5 (HS 15)</edomv>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>4 M 18 (H 20)</edomv>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>5 MS 18 (HS 20)</edomv>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>6 MS18(HW20)+mod</edomv>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>7 Pedestrian</edomv>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>8 Railroad</edomv>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>9 MS 22.5 (HS 25)</edomv>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>HL93</edomv>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>DKRATING</attrlabl>
+				<attrdef>Deck rating</attrdef>
+				<attrdefs>Federal Highway Administration, &quot;Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>0 Failed</edomv>
+						<edomvd>Failed Condition - out of service - beyond corrective action</edomvd>
+						<edomvds>Federal Highway Administration, &quot;Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>1 Imminent Failure</edomv>
+						<edomvd>&quot;Imminent&quot; Failure Condition - Major deterioration or section loss present in critical structural components or obvious vertical or horizontal movment affecting structure stability. Bridge is closed to traffic but corrective action may put it back in light service.</edomvd>
+						<edomvds>Federal Highway Administration, &quot;Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>2 Critical</edomv>
+						<edomvd>Critical Condition - advanced deterioration of primary strucutral elements. Fatigue cracks in steel or shear cracks in concrete may be present or scour may have removed substructure support. Unless closely monitored it may be necessary to close the bridge until corrective action is taken.</edomvd>
+						<edomvds>Federal Highway Administration, &quot;Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>3 Serious</edomv>
+						<edomvd>Serious Condition - loss of section, deterioration, spalling or scour have seriously affected primary strutural components. Local failures are possible. Fatigue cracks in steel or shear cracks in concrete may be present.</edomvd>
+						<edomvds>Federal Highway Administration, &quot;Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>4 Poor</edomv>
+						<edomvd>Poor Condition - advanced section loss, deterioration, spalling or scour</edomvd>
+						<edomvds>Federal Highway Administration, &quot;Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>5 Fair</edomv>
+						<edomvd>Fair Condition - all primary structural elements are sound but may have minor section loss, cracking, spalling or scour.</edomvd>
+						<edomvds>Federal Highway Administration, &quot;Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>6 Satisfactory</edomv>
+						<edomvd>Satisfactory Condition - structural elements show some minor deterioration</edomvd>
+						<edomvds>Federal Highway Administration, &quot;Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>7 Good</edomv>
+						<edomvd>Good Condition - some minor problems</edomvd>
+						<edomvds>Federal Highway Administration, &quot;Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>8 Very Good</edomv>
+						<edomvd>Very Good Condition - no problem noted</edomvd>
+						<edomvds>Federal Highway Administration, &quot;Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>9 Excellent</edomv>
+						<edomvd>Excellent condition</edomvd>
+						<edomvds>Federal Highway Administration, &quot;Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>N N/A (NBI)</edomv>
+						<edomvd>Not Applicable</edomvd>
+						<edomvds>Federal Highway Administration, &quot;Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>DS</attrlabl>
+				<attrdef>Deck to stream bed distance</attrdef>
+				<attrdefs>Bridge Log</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>EFFECTV_DT</attrlabl>
+				<attrdef>The year for which the data is valid or has been updated.</attrdef>
+				<attrdefs>Bridge Inspection Reports</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>FC</attrlabl>
+				<attrdef>Functional Classification of roadway that bridge is located.</attrdef>
+				<attrdefs>Bridge Inspection Reports</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>NA</edomv>
+						<edomvd>Not Available</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>01 Rural Interstate</edomv>
+						<edomvd>Rural Interstate</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>02 Rural Other Princ</edomv>
+						<edomvd>Rural Other Principle Arterial</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>06 Rural Minor Arterial</edomv>
+						<edomvd>Rural Minor Arterial</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>07 Rural Mjr Collector</edomv>
+						<edomvd>Rural Major Collector</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>08 Rural min Collector</edomv>
+						<edomvd>Rural Minor Collector</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>09 Rural Local</edomv>
+						<edomvd>Rural Local</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>11 Urban Interstate</edomv>
+						<edomvd>Urban Interstate</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>12 Urban Fwy/Expwy</edomv>
+						<edomvd>Urban Freeway/Expressway</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>14 Urban Other Princ</edomv>
+						<edomvd>Urban Other Principle Arterial</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>16 Urban Minor Arterial</edomv>
+						<edomvd>Urban Minor Arterial</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>17 Urban Collector</edomv>
+						<edomvd>Urban Collector</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>19 Urban Local</edomv>
+						<edomvd>Urban Local</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FILL</attrlabl>
+				<attrdef>Depth of the dirt above the culvert 9in feet)</attrdef>
+				<attrdefs>Bridge Inspection Reports</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>GIS_PRC_DT</attrlabl>
+				<attrdef>The date that the data was processed.</attrdef>
+				<attrdefs>Geographic Information Services, Oregon Department of Transportation</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>HC1</attrlabl>
+				<attrdef>Primary horizontal clearance or horizontal clearance in north or east bound lanes (in feet).</attrdef>
+				<attrdefs>Bridge Log</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>HC2</attrlabl>
+				<attrdef>Secondary horizontal clearance or horizontal clearance in south or west bound lanes (in feet).</attrdef>
+				<attrdefs>Bridge Log</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>HORZ_CLR_F</attrlabl>
+				<attrdef>Inventory Route, Total Horizontal Clearance (converted to feet).</attrdef>
+				<attrdefs>Federal Highway Administration, &quot;Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>HWYNUMB</attrlabl>
+				<attrdef>The identifier number of the highway segment of which the bridge is located.</attrdef>
+				<attrdefs>Bridge Inspection Reports</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>INSP_DATE</attrlabl>
+				<attrdef>The date of last bridge inspection.</attrdef>
+				<attrdefs>Bridge Inspection Reports</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>LANES</attrlabl>
+				<attrdef>The number of road or rail lanes the structure carries.</attrdef>
+				<attrdefs>Bridge Inspection Reports</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>LANES_UN</attrlabl>
+				<attrdef>The number of road or rail lanes the structure crosses.</attrdef>
+				<attrdefs>Bridge Inspection Reports</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>LAT</attrlabl>
+				<attrdef>The latitudinal coordinate of the bridge.</attrdef>
+				<attrdefs>Bridge Inspection Reports</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>LENGTH_FT</attrlabl>
+				<attrdef>The length of the structure (in feet).</attrdef>
+				<attrdefs>Bridge Inspection Reports</attrdefs>
+				<attrdomv>
+					<rdom>
+						<attrunit>feet</attrunit>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>LONGTD</attrlabl>
+				<attrdef>The longitudinal coordinate of the bridge.</attrdef>
+				<attrdefs>Bridge Inspection Reports</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>LRS_KEY</attrlabl>
+				<attrdef>The LRS key of the highway the bridge carries.</attrdef>
+				<attrdefs>Bridge Inspection Reports</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>MAIN_SPANS</attrlabl>
+				<attrdef>The number of main spans the bridge contains.</attrdef>
+				<attrdefs>Bridge Inspection Reports</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>MATERIAL</attrlabl>
+				<attrdef>Material bridge is constructed of.</attrdef>
+				<attrdefs>Bridge Inspection Reports</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>0 Other</edomv>
+						<edomvd>Other</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>1 Concrete</edomv>
+						<edomvd>Concrete</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>2 Concrete Continuous</edomv>
+						<edomvd>2 Concrete Continuous</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>3 Steel</edomv>
+						<edomvd>Steel</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>4 Steel Continuous</edomv>
+						<edomvd>Steel Continuous</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>5 Prestressed Concrete</edomv>
+						<edomvd>Prestressed Concrete</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>6 P/S Conc Continuous</edomv>
+						<edomvd>Prestressed Concrete Continuous</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>7 Wood or Timber</edomv>
+						<edomvd>Wood or Timber</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>8 Masonry</edomv>
+						<edomvd>Masonry</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>9 Aluminum or Iron</edomv>
+						<edomvd>Aluminum or Iron</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>Unknown (NBI)</edomv>
+						<edomvd>Unknown</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>MOVEABLE_B</attrlabl>
+				<attrdef>Notes if the bridge is moveable.</attrdef>
+				<attrdomv>
+					<edom>
+						<edomv>Yes</edomv>
+						<edomvd>The bridge is moveable.</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>No</edomv>
+						<edomvd>The bridge is not moveable</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>MP</attrlabl>
+				<attrdef>The approximate milepoint along the highway that the bridge is located.</attrdef>
+				<attrdefs>Bridge Inspection Reports</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>NAV_CNTL</attrlabl>
+				<attrdef>Navigational permit restrictions</attrdef>
+				<attrdefs>Bridge Inspection Reports</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>NA-no waterway</edomv>
+						<edomvd>No navigable waterway is located underneath the bridge.</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>Permit Not Required</edomv>
+						<edomvd>A permit is not required to pass a boat underneath the bridge.</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>Permit Required</edomv>
+						<edomvd>A permit is required to pass a boat underneath a bridge.</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>Unknown (NBI)</edomv>
+						<edomvd>Information is unknown</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>NBI_BRIDGE</attrlabl>
+				<attrdef>Notes if the bridge passed the National Bridge Inspection Standards (NBIS)</attrdef>
+				<attrdefs>Bridge Inspection Reports</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>Y</edomv>
+						<edomvd>Yes</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>N</edomv>
+						<edomvd>No</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>A</edomv>
+						<edomvd>Applicable</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>NCHRP_230</attrlabl>
+				<attrdef>Notes if the bridge&apos;s rail meets the safety evaluation standards of NCHRP 230</attrdef>
+				<attrdefs>Bridge Rail Database</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>NHS_IND</attrlabl>
+				<attrdef>NHS indication field</attrdef>
+				<attrdefs>Geographic Information Services, Oregon Department of Transportation</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>N</edomv>
+						<edomvd>The bridge is not on the National Highway System.</edomvd>
+						<edomvds>Geographic Information Services, Oregon Department of Transportation</edomvds>
+					</edom>
+					<edom>
+						<edomv>Y</edomv>
+						<edomvd>The bridge is on the National Highway System.</edomvd>
+						<edomvds>Geographic Information Services, Oregon Department of Transportation</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>ODOT_DIST</attrlabl>
+				<attrdef>The ODOT district the bridge is within.</attrdef>
+				<attrdefs>Bridge Inspection Reports</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>ODOT_REG</attrlabl>
+				<attrdef>The ODOT region the bridge is within.</attrdef>
+				<attrdefs>Bridge Inspection Reports</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>OWNER</attrlabl>
+				<attrdef>The owner of the bridge.</attrdef>
+				<attrdefs>Bridge Inspection Report</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>11 State Pk/Frst/Reserv</edomv>
+						<edomvd>Oregon Department of Forestry and Oregon Parks and Recreation Department</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>21 Other State Agencies</edomv>
+						<edomvd>Other State Agencies</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>25 Other Local Agencies</edomv>
+						<edomvd>Other Local Agencies</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>26 Private(nonRailroad)</edomv>
+						<edomvd>Private (non railroad company) owner</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>27 Railroad</edomv>
+						<edomvd>A railroad company owner</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>32 Local Toll Authority</edomv>
+						<edomvd>Local Toll Authority</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>69 Bureau,Reclamation</edomv>
+						<edomvd>United States Bureau of Reclamation</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>City/Municipal Hwy Agenc</edomv>
+						<edomvd>City or Municipal Highway Agency</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>County Hwy Agency</edomv>
+						<edomvd>County Highway Agency</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>State Highway Agency</edomv>
+						<edomvd>State Highway Agency</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>POSTING</attrlabl>
+				<attrdef>Posted load limit restrictions due to bridge condition</attrdef>
+				<attrdefs>Federal Highway Administration, &quot;Recording and Coding guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>0 &gt;39.9% below</edomv>
+						<edomvd>Operating level is greater than 39.9 percent less than the legal load level</edomvd>
+						<edomvds>Federal Highway Administration, &quot;Recording and Coding guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>1 30.0-39.9%</edomv>
+						<edomvd>Operating level is between 30.0 percent and 39.9 percent less than the legal load level</edomvd>
+						<edomvds>Federal Highway Administration, &quot;Recording and Coding guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>2 20.0-29.9%</edomv>
+						<edomvd>Operating level is between 20.0 percent and 29.9 percent less than the legal load level</edomvd>
+						<edomvds>Federal Highway Administration, &quot;Recording and Coding guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>3 10.0-19.9% below</edomv>
+						<edomvd>Operating level is between 10 percent and 19.9 percent less than the legal load level</edomvd>
+						<edomvds>Federal Highway Administration, &quot;Recording and Coding guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>4 0.1-9.9%</edomv>
+						<edomvd>Operating level is between 0.1 percent and 9.9 percent less than the legal load level</edomvd>
+						<edomvds>Federal Highway Administration, &quot;Recording and Coding guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>5 At/Above Legal Loads</edomv>
+						<edomvd>Operating level is at or above the legal load level</edomvd>
+						<edomvds>Federal Highway Administration, &quot;Recording and Coding guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>Unknown (NBI)</edomv>
+						<edomvd>Unknown operating level</edomvd>
+						<edomvds>Federal Highway Administration, &quot;Recording and Coding guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>RAILCOND</attrlabl>
+				<attrdef>Rail Condition</attrdef>
+				<attrdefs>Bridge Rail Database</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>Fair</edomv>
+						<edomvds>Bridge Rail Database</edomvds>
+					</edom>
+					<edom>
+						<edomv>Good</edomv>
+						<edomvds>Bridge Rail Database</edomvds>
+					</edom>
+					<edom>
+						<edomv>Poor</edomv>
+						<edomvds>Bridge Rail Database</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>RAILMAT</attrlabl>
+				<attrdef>Rail Material</attrdef>
+				<attrdefs>Bridge Rail Database</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>Conc Bridge Railing</edomv>
+						<edomvds>Bridge Rail Database</edomvds>
+					</edom>
+					<edom>
+						<edomv>Metal Rail Coated</edomv>
+						<edomvds>Bridge Rail Database</edomvds>
+					</edom>
+					<edom>
+						<edomv>Metal Rail Uncoated</edomv>
+						<edomvds>Bridge Rail Database</edomvds>
+					</edom>
+					<edom>
+						<edomv>Other Bridge Railing</edomv>
+						<edomvds>Bridge Rail Database</edomvds>
+					</edom>
+					<edom>
+						<edomv>Timb Bridge Railing</edomv>
+						<edomvds>Bridge Rail Database</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>RAILRATING</attrlabl>
+				<attrdef>Rail Rating</attrdef>
+				<attrdefs>Bridge Rail Database</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>0 Substandard</edomv>
+						<edomvds>Bridge Rail Database</edomvds>
+					</edom>
+					<edom>
+						<edomv>1 Meets Standards</edomv>
+						<edomvds>Bridge Rail Database</edomvds>
+					</edom>
+					<edom>
+						<edomv>N N/A or not required</edomv>
+						<edomvds>Bridge Rail Database</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>RTGOAL_SHV</attrlabl>
+				<attrdef>The population of bridges that have a span of less than 200 ft. and have rating factors less than 1.3 for the three standard legal load vehicles.
+FHWA has given a deadline of December 31st 2017 to have all of these bridges evaluated for the SHV loads.</attrdef>
+				<attrdefs>Bridge Inspection Reports</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>SCOURCRIT</attrlabl>
+				<attrdef>Scour Critical Bridges (at risk of failure due to scour).</attrdef>
+				<attrdefs>Federal Highway Administration, &quot;Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>0 SC - Bridge Failed</edomv>
+						<edomvd>Bridge is scour critical. Bridge has failed and is closed to traffic.</edomvd>
+						<edomvds>Federal Highway Administration, &quot;Recording and Coding guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>1 SC-Fail Imminent</edomv>
+						<edomvd>Bridge is scour critical; field review indicates that failure of piers/abutments is imminent.</edomvd>
+						<edomvds>Federal Highway Administration, &quot;Recording and Coding guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>2 SC-Extensive Scour</edomv>
+						<edomvd>Bridge is scour critical; filed review indicates that extensive scour has occurred at bridge foundations. Immediate action is required to provide scour countermeasures.</edomvd>
+						<edomvds>Federal Highway Administration, &quot;Recording and Coding guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>3 SC - Unstable</edomv>
+						<edomvd>Bridge is scour critical; bridge foundations determined to be stable for calculated scour conditions:
+
+- scour within limits
+
+- scour below spread-footing base or pile tips.</edomvd>
+						<edomvds>Federal Highway Administration, &quot;Recording and Coding guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>4 Stable, needs action</edomv>
+						<edomvd>Bridge foundations determined to be stable for calculated scour conditions; field review indicates action is required to protect exposed foundations from effects of additional erosion and corrosion.</edomvd>
+						<edomvds>Federal Highway Administration, &quot;Recording and Coding guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>5 Stable w/in footing</edomv>
+						<edomvd>Bridge foundations determined to be stable for calculated scour conditions; scour within limits of footing or piles.</edomvd>
+						<edomvds>Federal Highway Administration, &quot;Recording and Coding guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>6 Calcs not made</edomv>
+						<edomvd>Scour calculation evaluation has not been made</edomvd>
+						<edomvds>Federal Highway Administration, &quot;Recording and Coding guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>7 Countermeasures</edomv>
+						<edomvd>Countermeasures have been installed to correct a previously existing problem with scour. Bridge is no longer scour critical.</edomvd>
+						<edomvds>Federal Highway Administration, &quot;Recording and Coding guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>8 Stable Above Footing</edomv>
+						<edomvd>Bridge foundations determined to be stable for assessed or calculated scour conditions; calculated scour is above top of footing.</edomvd>
+						<edomvds>Federal Highway Administration, &quot;Recording and Coding guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>9 On Dry Land</edomv>
+						<edomvd>Bridge foundations (including piles) or dry land well above flood water elevations.</edomvd>
+						<edomvds>Federal Highway Administration, &quot;Recording and Coding guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>N Not Over Waterway</edomv>
+						<edomvd>Bridge not over waterway.</edomvd>
+						<edomvds>Federal Highway Administration, &quot;Recording and Coding guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>T Tidal, Low Risk</edomv>
+						<edomvd>Bridge over &quot;tidal&quot; waters that has not been evaluated for scour, but considered low risk. Bridge will be monitored with regular inspection cycle and with appropriate underwater inspections.</edomvd>
+						<edomvds>Federal Highway Administration, &quot;Recording and Coding guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>U Unknown scour</edomv>
+						<edomvd>Bridge with &quot;unknown&quot; foundation that has not been evaluated for scour. Since risk cannot be determined, flag for monitoring during flood events, and if appropriate, closure.</edomvd>
+						<edomvds>Federal Highway Administration, &quot;Recording and Coding guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SD_FO</attrlabl>
+				<attrdef>Condition of bridge per bridge inspection.</attrdef>
+				<attrdefs>Bridge Inspection Reports</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>Structurally Deficient</edomv>
+						<edomvd>The classification &quot;Structurally Deficient&quot; is used to determine eligibility for federal bridge replacement and rehabilitation funding. Bridges are classified as &quot;structurally deficient&quot; if they have a general condition rating for the deck, superstructure, substructure or culvert as 4 or less or if the road approaches regularly overtop due to flooding. A general condition rating of 4 means that the component rating is described as poor. Examples of poor condition include corrosion that has caused significant section loss of steel support members, movement of substructures, or advanced cracking and deterioration in concrete bridge decks. For bridge owners, the classification structurally deficient is a reminder that the bridge may need further analysis that may result in load posting, maintenance, rehabilitation, replacement or closure.
+
+The fact that a bridge is structurally deficient does not imply that it is unsafe. A structurally deficient bridge typically needs maintenance and repair and eventual rehabilitation or replacement to address deficiencies. To remain open to traffic, structurally deficient bridges are often posted with reduced weight limits that restrict the gross weight of vehicles using the bridges. If unsafe conditions are identified during a physical inspection, the structure will be closed.</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>Not Deficient</edomv>
+						<edomvd>Not Deficient</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>NA</edomv>
+						<edomvd>NA</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>Functionally Obsolete</edomv>
+						<edomvd>A functionally obsolete bridge is one that was built to standards that do not meet the minimum federal clearance requirements for a new bridge. These bridges are not automatically rated as structurally deficient, nor are they inherently unsafe. Functionally obsolete bridges include those that have sub-standard geometric features such as narrow lanes, narrow shoulders, poor approach alignment or inadequate vertical under clearance. The classification functionally obsolete is also a term used as a priority status for federal bridge replacement and rehabilition funding eligibility.</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SERVICE_ON</attrlabl>
+				<attrdef>Type of feature the bridge carries</attrdef>
+				<attrdefs>Bridge Inspection Reports</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>1 Highway</edomv>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>2 Railroad</edomv>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>3 Pedestrian-bicycle</edomv>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>4 Highway-railroad</edomv>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>5 highway-pedestrian</edomv>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>6 2d level interchg</edomv>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>7 3d level interchg</edomv>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>Other (NBI)</edomv>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>Unknown (NBI)</edomv>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SERVICE_UN</attrlabl>
+				<attrdef>Type of feature bridge crosses.</attrdef>
+				<attrdefs>Bridge Inspection Reports</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>0 Other</edomv>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>1 Highway</edomv>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>2 Railroad</edomv>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>3 pedestrian-bicycle</edomv>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>4 highway-railroad</edomv>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>5 Waterway</edomv>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>6 Highway-waterway</edomv>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>7 Railroad-waterway</edomv>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>8 Hwy-waterway-RR</edomv>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>9 Relief for waterway</edomv>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>Not Applicable (P)</edomv>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>Unknown (NBI)</edomv>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SPANS</attrlabl>
+				<attrdef>Short description of number, type, and length of different spans that make up whole bridge</attrdef>
+				<attrdefs>Bridge Log</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>STATUS</attrlabl>
+				<attrdef>Deficiency status: structurally deficient, functionally obsolete, not deficient or not required</attrdef>
+				<attrdefs>Federal Highway Administration, &quot;Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>Posted</edomv>
+						<edomvds>Bridge Load Rating Database</edomvds>
+					</edom>
+					<edom>
+						<edomv>Restricted</edomv>
+						<edomvds>Bridge Load Rating Database</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>STRUC_TYP</attrlabl>
+				<attrdef>Material of bridge then design of bridge.</attrdef>
+				<attrdefs>Bridge Inspection Reports</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>SUBRATING</attrlabl>
+				<attrdef>Substructure rating.</attrdef>
+				<attrdefs>Federal Highway Administration, &quot;Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>5 Fair</edomv>
+						<edomvd>Fair Condition - all primary structural elements are sound but may have minor section loss, cracking, spalling or scour</edomvd>
+						<edomvds>Federal Highway Administration, &quot;recording and coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>0 Failed</edomv>
+						<edomvd>Fail condition - out of service - beyond corrective action</edomvd>
+						<edomvds>Federal Highway Administration, &quot;recording and coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>1 Imminent Failure</edomv>
+						<edomvd>&quot;Imminent&quot; Failure Condition - Major deterioration or section loss present in critical structural components or obvious vertical or horizontal movement affecting structure stability. Bridge is closed to traffic but corrective action may put it back in light service.</edomvd>
+						<edomvds>Federal Highway Administration, &quot;recording and coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>2 Critical</edomv>
+						<edomvd>Critical Condition - advanced deterioration of primary structural elements. Fatigue cracks in steel or shear cracks in concrete may be present or scour may have removed substructure support. Unless closely monitored it may be necessary to closr the bridge until corrective action is taken.</edomvd>
+						<edomvds>Federal Highway Administration, &quot;recording and coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>3 Serious</edomv>
+						<edomvd>Serious Condition - loss of section, deterioration, spalling or scour have seriously affected primary structural components. Local failures are possible. Fatigue cracks in steel or shear cracks in concrete may be present.</edomvd>
+						<edomvds>Federal Highway Administration, &quot;recording and coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>4 Poor</edomv>
+						<edomvd>Poor Condition - advance section loss deterioration, spalling or scour</edomvd>
+						<edomvds>Federal Highway Administration, &quot;recording and coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>6 Satisfactory</edomv>
+						<edomvd>Satisfactory Condition - structural elements show some minor deterioration</edomvd>
+						<edomvds>Federal Highway Administration, &quot;recording and coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>7 Good</edomv>
+						<edomvd>Good Condition - some minor problems</edomvd>
+						<edomvds>Federal Highway Administration, &quot;recording and coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>8 Very Good</edomv>
+						<edomvd>Very Good Condition - no problems noted</edomvd>
+						<edomvds>Federal Highway Administration, &quot;recording and coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>9 Excellent</edomv>
+						<edomvd>Excellent Condition</edomvd>
+						<edomvds>Federal Highway Administration, &quot;recording and coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>N N/A (NBI)</edomv>
+						<edomvd>Not Applicable</edomvd>
+						<edomvds>Federal Highway Administration, &quot;recording and coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SUF_RATING</attrlabl>
+				<attrdef>Sufficiency rating is a computed numerical value that is used to determine eligibility of a bridge for Federal funding. The sufficiency rating formula result varies from 0 to 100. The formula includes factors for structural condition, bridge geometry, and traffic considerations. The sufficiency rating formula is contained in the December 1995 Edition of the ?Recording and Coding Guide for the Structure Inventory and Appraisal of the Nation?s Bridges?. A bridge with a sufficiency rating of 80 or less is eligible for Federal bridge rehabilitation funding. A bridge with a sufficiency rating of 50 or less is eligible for Federal bridge replacement funding.</attrdef>
+				<attrdefs>Bridge Inspection Reports</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>SUPRATING</attrlabl>
+				<attrdef>Superstructure rating</attrdef>
+				<attrdefs>Bridge Inspection Reports</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>0 Failed</edomv>
+						<edomvd>Failed Condition - out of service - beyond corrective action</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>1 Imminent Failure</edomv>
+						<edomvd>&quot;Imminent&quot; Failure Condition - Major deterioration or section loss present in critical structural components or obvious vertical or horizontal movement affecting structure stability. Bridge is closed to traffic but corrective action may put it back in light service.</edomvd>
+						<edomvds>Federal Highway Administration, &quot;recording and coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>2 Critical</edomv>
+						<edomvd>Critical Condition - advanced deterioration of primary structural elements. Fatigue cracks in steel or shear cracks in concrete may be present or scour may have removed substructure support. Unless closely monitored it may be necessary to close the bridge until corrective action is taken.</edomvd>
+						<edomvds>Federal Highway Administration, &quot;recording and coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>3 Serious</edomv>
+						<edomvd>Serious Condition - loss of section, deterioration, spalling or scour have seriously affected primary strucutural components. Local failures are possible. Fatigue in steel or shear cracks in concrete may be present.</edomvd>
+						<edomvds>Federal Highway Administration, &quot;recording and coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>4 Poor</edomv>
+						<edomvd>Poor Condition - advanced section loss deterioration, spalling or scour</edomvd>
+						<edomvds>Federal Highway Administration, &quot;recording and coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>5 Fair</edomv>
+						<edomvd>Fair Condition - all primary structural elements are sound but may have minor section loss, cracking, spalling, or scour.</edomvd>
+						<edomvds>Federal Highway Administration, &quot;recording and coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>6 Satisfactory</edomv>
+						<edomvd>Satisfactory Condition - structural elements show some minor deterioration.</edomvd>
+						<edomvds>Federal Highway Administration, &quot;recording and coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>7 Good</edomv>
+						<edomvd>Good Condition - some minor problems</edomvd>
+						<edomvds>Federal Highway Administration, &quot;recording and coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>8 Very Good</edomv>
+						<edomvd>Very Good Condition - no problems noted.</edomvd>
+						<edomvds>Federal Highway Administration, &quot;recording and coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>9 Excellent</edomv>
+						<edomvd>Excellent Condition</edomvd>
+						<edomvds>Federal Highway Administration, &quot;recording and coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+					<edom>
+						<edomv>N N/A (NBI)</edomv>
+						<edomvd>Not Applicable</edomvd>
+						<edomvds>Federal Highway Administration, &quot;recording and coding Guide for the Structure Inventory and Appraisal of the Nation&apos;s Bridges&quot;</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>TRAF_DIR</attrlabl>
+				<attrdef>Describes if the bridge carries one-way or two-way traffic.</attrdef>
+				<attrdefs>Bridge Inspection Reports</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>1-way traffic</edomv>
+						<edomvd>The bridge has one or more lanes all in the same direction of auto travel.</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>2-way traffic</edomv>
+						<edomvd>The bridge has at least one lane for each direction of auto travel.</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>Highway traffic not carried</edomv>
+						<edomvd>The bridge does not carry automobiles.</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>One lane bridge for 2-way traffic</edomv>
+						<edomvd>The bridge has one road lane which carries two-way traffic</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+					<edom>
+						<edomv>Unknown</edomv>
+						<edomvd>The traffic direction is unknown for this bridge</edomvd>
+						<edomvds>Bridge Inspection Reports</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>WEIGHT_RES</attrlabl>
+				<attrdef>Specific weight restrictions for the bridge.</attrdef>
+				<attrdefs>Bridge Load Rating Database</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>WIDTH_FT</attrlabl>
+				<attrdef>The width of the structure (feet).</attrdef>
+				<attrdefs>Bridge Inspection Reports</attrdefs>
+				<attrdomv>
+					<rdom>
+						<attrunit>feet</attrunit>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>YEAR</attrlabl>
+				<attrdef>The year the bridge construction was completed.</attrdef>
+				<attrdefs>Bridge Inspection Reports</attrdefs>
+			</attr>
+		</detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Geographic Information Services (GIS) Unit, Oregon Department of Transportation (ODOT)</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>555 13th St. NE, Suite #2</address>
+					<city>Salem</city>
+					<state>OR</state>
+					<postal>97301-4178</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>503.986.3154</cntvoice>
+				<cntfax>503.986.4249</cntfax>
+				<cntemail>ODOTGISFramework@odot.state.or.us</cntemail>
+				<hours>Monday through Friday, 8:00 AM to 5:00 PM.</hours>
+				<cntinst>Call, email, or write.</cntinst>
+			</cntinfo>
+		</distrib>
+		<resdesc>State Bridges Dataset</resdesc>
+		<distliab>This product is for informational purposes and may not have been prepared for legal, engineering or surveying purposes. Users of this information should review or consult the primary data and information sources to ascertain the usability of the information.</distliab>
+		<techpreq>Familiarity with state bridge rating system, state highway network and linear referencing system.</techpreq>
+	</distinfo>
+	<metainfo>
+		<metd>20140714</metd>
+		<metrd>20140714</metrd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Bridge Section, Oregon Department of Transportation (ODOT)</cntorg>
+					<cntper>Bert Hartman</cntper>
+				</cntorgp>
+				<cntpos>Bridge Program Unit Manager</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>4040 Fairview Industrial Dr. SE MS #4</address>
+					<city>Salem</city>
+					<state>OR</state>
+					<postal>97302</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(503) 986-3395</cntvoice>
+				<cntfax>(503) 986-3407</cntfax>
+				<cntemail>Bert.H.HARTMAN@odot.state.or.us</cntemail>
+				<hours>8:00am-5:00pm PST</hours>
+				<cntinst>Call, email or write</cntinst>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metac>none</metac>
+		<metuc>none</metuc>
+		<metsi>
+			<metscs>none</metscs>
+			<metsc>Restricted</metsc>
+			<metshd>none</metshd>
+		</metsi>
+	</metainfo>
+</metadata>
